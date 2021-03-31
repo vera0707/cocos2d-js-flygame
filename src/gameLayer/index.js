@@ -31,7 +31,9 @@ const GameScene = cc.Scene.extend({
         this._super();
         const gameLayer = new GameLayer();
         const planeLayer = new PlaneLayer();
+        const bulletLarer = new BulletLayer();
         this.addChild(gameLayer);
+        this.addChild(bulletLarer);
         this.addChild(planeLayer);
     }
 });

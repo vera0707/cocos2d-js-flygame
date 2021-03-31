@@ -15,6 +15,7 @@
         "src/resource.js",
         "src/app.js",
         "src/planeLayer/index.js",
-        "src/gameLayer/index.js"
+        "src/gameLayer/index.js",
+        "src/bulletLarer/index.js"
     ]
 }
